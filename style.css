@@ -1,0 +1,62 @@
+#nav {
+  font-family: 'Hachi Maru Pop', cursive, sans-serif;
+  background-color: rgb(231, 208, 208);
+  /* border-bottom: dashed;
+  border-color: black; */
+}
+  
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-image: url('./assets/photo-1518691340140-512e66ce957b.jpeg');
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  main {
+    flex: 1 0 auto;
+    text-align: center;
+  }
+
+  .card{
+    border-style: solid;
+    border-color: black;
+    font-family: 'Hachi Maru Pop', cursive, sans-serif;
+    background-image: url('./assets/black-and-white-kansas-city-frozen-in-time-fine-art-photography.jpg');
+  }
+
+  #weather-image {
+    max-width: 200px;
+    max-height:150px; 
+}
+
+#footer {
+  background-color: rgb(231, 208, 208);
+  border-top: dashed;
+  border-color: black;
+  font-family: 'Hachi Maru Pop', cursive, sans-serif;
+  text-align: center;
+}
+
+#borderimg {
+  border-image-slice: 30%;
+}
+
+#input_text {
+  font-family: 'Hachi Maru Pop', cursive, sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+.responsive-img {
+  border: solid;
+  border-color: black;
+  image-rendering: crisp-edges;
+}
+
+::placeholder {
+  color: black;
+}
